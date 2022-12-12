@@ -1,3 +1,53 @@
 body {
-  background-image: url=(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  background-image: linear-gradient(120deg, rgba(38, 41, 46, 1), rgba(99, 106, 115, 0.9)),
+  url(https://www.mixerplanet.com/wp-content/uploads/2019/01/LEcrin-Hotel-De-Crillon_Parigi.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 1.5;
+  color: white
 }
+
+.header {
+  display: block;
+  text-align: center;
+}
+
+form {  
+  display: block;
+  background-color: rgba(40, 42, 43, 0.8);
+ width: 50%;
+ margin-left: 20em;
+ padding: 50px;
+ border-radius: 20px;
+}
+
+ .field {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+
+.radio
+{
+transform: scale(1.2);
+}
+
+.check
+{
+  transform: scale(1.2);
+  }
+
+  textarea {
+    width: 100%;
+    height: 80px;
+  }
+
+  #submit {
+    width: 100%;
+    height: 40px;
+    background-color:blanchedalmond;
+  }
