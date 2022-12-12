@@ -16,10 +16,10 @@ body {
 }
 
 form {  
-  display: block;
-  background-color: rgba(40, 42, 43, 0.8);
+ display: block;
+background-color: rgba(40, 42, 43, 0.8);
  width: 50%;
- margin-left: 20em;
+ margin: 0 auto;
  padding: 50px;
  border-radius: 20px;
 }
