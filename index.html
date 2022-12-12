@@ -9,10 +9,52 @@
 <body>
   <main>
   <article>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-     <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <h1 id="title">Restaurant Survey Form</h1>
+     <p id="description">Thank you for taking the time to help us improve the institution</p>
   </article>
   <form id="survey-form">
+    <label for="name">Name</label>
+    <br>
+    <input id="name" name="name" type="text" placeholder="Enter your name">
+    <br>
+    <br>
+    <label for="email">Email</label>
+    <br>
+    <input id="email" name="email" type="email" placeholder="Enter your Email">
+    <br>
+    <br>
+    <label for="number">Age(optional)</label>
+    <br>
+    <input id="number" name="number" type="number" placeholder="Age">
+    <br>
+    <br>
+    <label for="dropdown">When was the last time you were in our restaurant?</label>
+    <br>
+    <select id="dropdown" name="visit" type="select" placeholder="Select an option">
+      <option>Last week</option>
+      <option>Last month</option>
+      <option>This year</option>
+      <option>More than a year ago</option>
+      </select>
+      <br>
+      <br>
+      <label>Would you recommend restaurant to a friend?</label>
+      <br>
+      <input name="recomendation" type="radio" checked> Definitely
+      <br>
+      <input name="recomendation" type="radio"> Maybe
+      <br>
+      <input name="recomendation" type="radio"> Not sure
+      <br>
+      <br>
+      <label>What is your favorite feature of restaurant?</label>
+      <br>
+      <select>
+        <option>Food</option>
+        <option>Interior</option>
+        <option>Atmosphere</option>
+        <option>Music</option>
+      </select>
 
   </form>
 </main>
